@@ -9,6 +9,7 @@ var telescopeId = Posts.insert({
 title: 'Introducing Telescope',
 userId: sacha._id,
 author: sacha.profile.name,
+commentsCount: 2,
 url: 'http://sachagreif.com/introducing-telescope/', submitted: now - 7 * 3600 * 1000
 });
 Comments.insert({
@@ -27,11 +28,13 @@ Posts.insert({
 title: 'Meteor',
 userId: tom._id,
 author: tom.profile.name,
+commentsCount: 0,
 url: 'http://meteor.com', submitted: now - 10 * 3600 * 1000
 });
 Posts.insert({
 title: 'The Meteor Book',
 userId: tom._id,
 author: tom.profile.name,
+commentsCount: 0,
 url: 'http://themeteorbook.com', submitted: now - 12 * 3600 * 1000
 }); }
