@@ -34,7 +34,7 @@ userId: moufid._id,
 author: moufid.profile.name,
 url: 'http://themeteorbook.com', submitted: now - 12 * 3600 * 1000, commentsCount: 0
 });
-for (var i = 0; i < 10; i++) { Posts.insert({
+for (var i = 0; i < 100; i++) { Posts.insert({
 title: 'Test post #' + i,
 author: mou.profile.name,
 userId: mou._id,
